@@ -1,0 +1,91 @@
+@import 'normalize';
+
+$mako: #3e4252;
+$aluminum: #9b9b9b;
+$lily-white: #e6eeed;
+$crusta: #e69361;
+$tinos: 'Tinos', Lucida Bright, Georgia, serif;
+$junge: 'Junge', Lucida Bright, Georgia, serif;
+
+body {
+  font-family: $junge;
+  color: $aluminum;
+}
+
+.wrapper {
+  background-color: $mako;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  @media screen and (min-width: 1452px) {
+    width: 1344px;
+  }
+  @media screen and (min-width: 1260px) and (max-width: 1451px) {
+    width: 1152px;
+  }
+  @media screen and (min-width: 1069px) and (max-width: 1259px) {
+    width: 960px;
+  }
+  @media screen and (max-width: 1068px) {
+    margin: 0 1rem;
+    width: calc(100vw - 2rem);
+  }
+}
+
+.content {
+  @media screen and (min-width: 1260px) {
+    width: 55%;
+  }
+}
+
+h1,
+h2 {
+  font-family: $tinos;
+  font-weight: bolder;
+  margin: 0 0 1rem 0;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 2.5rem;
+  color: $lily-white;
+}
+p {
+  font-size: 1.25rem;
+  margin: 0 0 1rem 0;
+  line-height: 2rem;
+  &:nth-child(1) {
+    margin-top: 2rem;
+  }
+  &:last-child {
+    margin-bottom: 3rem;
+  }
+}
+em {
+  color: $lily-white;
+  font-style: normal;
+}
+a {
+  color: $lily-white;
+  &:hover {
+    color: $aluminum;
+  }
+}
+
+.social a {
+  color: $crusta;
+  text-decoration: none;
+  &:hover {
+    color: darken($crusta, 5%);
+  }
+}
+.fa {
+  margin-right: 20px;
+}
