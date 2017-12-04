@@ -1,8 +1,7 @@
 @import 'normalize';
-
 $mako: #3e4252;
-$aluminum: #9b9b9b;
-$lily-white: #e6eeed;
+$aluminum: #ababab;
+$lily-white: #ebebeb;
 $crusta: #e69361;
 $tinos: 'Tinos', Lucida Bright, Georgia, serif;
 $junge: 'Junge', Lucida Bright, Georgia, serif;
@@ -50,13 +49,16 @@ h2 {
   font-weight: bolder;
   margin: 0 0 1rem 0;
 }
+
 h1 {
   font-size: 5rem;
 }
+
 h2 {
   font-size: 2.5rem;
   color: $lily-white;
 }
+
 p {
   font-size: 1.25rem;
   margin: 0 0 1rem 0;
@@ -68,10 +70,12 @@ p {
     margin-bottom: 3rem;
   }
 }
+
 em {
   color: $lily-white;
   font-style: normal;
 }
+
 a {
   color: $lily-white;
   &:hover {
@@ -86,6 +90,7 @@ a {
     color: darken($crusta, 5%);
   }
 }
+
 .fa {
   margin-right: 20px;
 }

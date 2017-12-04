@@ -370,7 +370,7 @@ th {
 
 body {
   font-family: "Junge", Lucida Bright, Georgia, serif;
-  color: #9b9b9b; }
+  color: #ababab; }
 
 .wrapper {
   background-color: #3e4252;
@@ -410,7 +410,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  color: #e6eeed; }
+  color: #ebebeb; }
 
 p {
   font-size: 1.25rem;
@@ -422,13 +422,13 @@ p {
     margin-bottom: 3rem; }
 
 em {
-  color: #e6eeed;
+  color: #ebebeb;
   font-style: normal; }
 
 a {
-  color: #e6eeed; }
+  color: #ebebeb; }
   a:hover {
-    color: #9b9b9b; }
+    color: #ababab; }
 
 .social a {
   color: #e69361;
